@@ -27,6 +27,10 @@ impl PersonRecord {
 
 fn main() {
     
+    let mut _peoplein: Vec<PersonRecord> = Vec::new();
+
+    // i want to see the ppl in the list of (ppl.json) read into this structure... (peoplein)
+
     let _sam = PersonRecord { name: "Sam".to_string(), year: 1973, location: "Koeln".to_string() };
     let _varad = PersonRecord { name: "Varad".to_string(), year: 1996, location: "Augsburg".to_string() };
 
